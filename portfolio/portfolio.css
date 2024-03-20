@@ -1,0 +1,271 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"); */
+
+  body{
+margin: auto;
+}
+
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    
+}
+nav{
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    z-index: 99;
+    right: 0;
+}
+
+
+  ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  transition: left 0.3s;
+ 
+}
+
+ul li a {
+  padding: 0.5rem 1rem;
+  border: 3px solid transparent;
+  text-decoration: none;
+  font-weight: 600;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+ul li a:hover {
+  border-top-color: #ffa600; 
+  border-bottom-color: #ffa600;
+  color: #ffa600;
+}
+
+.top_border {
+  max-width: 1200px;
+  /* margin: auto; */
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.color /*, .w3-hover-black:hover*/ {
+    color: #ffffff;
+    background-color:#000000 ;
+    
+}
+.padding {
+    padding-top: 150px ;   /*adds padding at top of web developer */
+    padding-bottom: 102px ; /*adds padding at bottom of web developer */
+  
+  }
+.center {
+    text-align: center ;
+    
+}
+.title {
+  font-size: 60px ;
+}
+.about{
+  color:#000000;
+  padding-top: 32px ;
+  padding-bottom: 32px ;
+  text-align: center;
+  box-sizing: inherit;
+}
+.content{
+margin-left: auto;
+margin-right: auto;
+max-width: 980px;
+}
+
+.skill{
+color:#ffa600;
+padding-top: 16px;
+text-align: center; 
+}
+
+.option{
+  color:#000000; 
+  padding-top: 16px;
+  padding-bottom: 16px ;
+  text-align: center; 
+  }
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  line-height: 30px;
+  text-align:justify;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.light-grey {
+  color: #000 !important;
+  background-color: #808080 !important;
+}
+.dark-grey {
+  color: #ffffff !important;
+  background-color: #424242 !important;
+}
+
+
+
+.s-container {
+  padding: 0.01em 16px;
+  text-align: center ;
+  padding: 4px 8px ;
+}
+
+
+/* contact page */
+
+.contact{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 40%;
+}
+
+
+.footer_content {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 24px ;
+}
+.ftr_skill{
+  color:#ffa600; 
+  padding-top: 16px;
+  text-align: right; 
+  background-color: #4d4d4d;
+  width: 100%;
+  padding-bottom: 16px;
+}
+/* hamburger */
+
+
+.ham-white{
+  color: #ffffff ;
+  background-color: #000000 ;
+  transition: margin-left .4s;
+  top: 0;
+}
+
+.ham-btn {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+  position: absolute;
+  z-index: 1;
+}
+/* form */
+.from-padding {
+  padding-top: 16px ;
+  padding-bottom: 16px ;
+  /* align-content: center; */
+}
+
+
+
+.form_input {
+  padding: 8px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: 50%;
+  margin-left: 25%;
+}
+
+/* from button */
+
+.form-button {
+  /* padding: 8px 16px; */
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  color: #000 ;
+  background-color: #ffffff ;
+  padding: 12px 24px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+  .form-button {
+    
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: #000 ;
+    background-color: #ffffff ; 
+  }
+
+
+  .form_input {
+    
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: auto;
+    font-size: 18px;
+    
+  }
+  .skill{
+    color:#ffa600;
+    text-align: center; 
+    font-size:18px ;
+    }
+
+  .contact{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size:14px;
+   }
+
+    .top_border {
+      font-size: 18px;
+      align-content: center;
+      text-align: center;
+    }
+
+    .title {
+      font-size: 40px ;
+    }
+	
+	.form_input {
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #000000;
+  width: auto;
+  font-size:20px;
+}
+      
+}
